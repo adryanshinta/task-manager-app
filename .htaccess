@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Set the base directory path
+RewriteBase /task-manager-app/
+
+# Redirect to index.php if the requested file or directory does not exist
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /task-manager-app/index.php [L]

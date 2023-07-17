@@ -1,0 +1,163 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Index Page Styles */
+.container h1 {
+  text-align: center;
+}
+
+.container a {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Login and Register Page Styles */
+.container h2 {
+  text-align: center;
+}
+
+.container form {
+  margin-top: 20px;
+}
+
+.container form .form-group {
+  margin-bottom: 20px;
+}
+
+.container form label {
+  display: block;
+  font-weight: bold;
+}
+
+.container form input[type="text"],
+.container form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.container form .help-block {
+  color: red;
+}
+
+.container form .btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container form .btn:hover {
+  background-color: #45a049;
+}
+
+.container p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Dashboard Page Styles */
+header {
+  background-color: #1DA1F2;
+  color: white;
+  padding: 10px 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header .logout {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  background-color: #000;
+  border-radius: 5px;
+}
+
+.container h2 {
+  margin-top: 30px;
+}
+
+.task-form input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.task-form button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-form button:hover {
+  background-color: #45a049;
+}
+
+#incomplete-tasks,
+#completed-tasks {
+  list-style-type: none;
+  padding: 0;
+}
+
+#incomplete-tasks li,
+#completed-tasks li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+#incomplete-tasks li:last-child,
+#completed-tasks li:last-child {
+  border-bottom: none;
+}
+
+.task-actions button {
+  margin-left: 10px;
+  background-color: #1DA1F2;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-actions button:hover {
+  background-color: #0c7fb5;
+}
+
+footer {
+  background-color: #1DA1F2;
+  color: white;
+  padding: 10px 0;
+  margin-top: 30px;
+  text-align: center;
+}
